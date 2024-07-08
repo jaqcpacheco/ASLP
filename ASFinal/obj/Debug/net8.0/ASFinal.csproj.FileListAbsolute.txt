@@ -1,0 +1,4 @@
+C:\Users\jaque\ASFinal\obj\Debug\net8.0\ASFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaque\ASFinal\obj\Debug\net8.0\ASFinal.AssemblyInfoInputs.cache
+C:\Users\jaque\ASFinal\obj\Debug\net8.0\ASFinal.AssemblyInfo.cs
+C:\Users\jaque\ASFinal\obj\Debug\net8.0\ASFinal.csproj.CoreCompileInputs.cache
