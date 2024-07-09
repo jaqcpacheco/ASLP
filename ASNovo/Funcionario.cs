@@ -1,32 +1,27 @@
-using System;
-using System.Collections.Generic;
-
 public abstract class Funcionario
-{
-    public string nome;
-    public int matriculaFuncionario;
-    public List<string> projetos = new List<string> { "Marketing", "Criação e Design", "Desenvolvimento de Software", "Segurança Cibernética" };
-    public Funcionario (string nome, int matriculaFuncionario)
     {
-        this.nome = nome;
-        this.matriculaFuncionario = matriculaFuncionario;
+        public string Nome { get; set; }
+        public int Matricula { get; set; }
+        public List<string> Projetos { get; set; }
+
+        public Funcionario(string nome, int matricula)
+        {
+            Nome = nome;
+            Matricula = matricula;
+            Projetos = new List<string>();
+        }
+
+        public abstract double CalcularSalario();
+        public abstract void ExibirInformacoes();
+
+        // Sobrecarga do método AdicionarProjeto
+        public void AdicionarProjeto(string projeto)
+        {
+            Projetos.Add(projeto);
+        }
+
+        public void AdicionarProjeto(List<string> projetos)
+        {
+            Projetos.AddRange(projetos);
+        }
     }
-    public static void AdicionarProjeto(string projeto)
-    {
-
-    }
-
-    public List<string> Projetos { get => projetos; set => projetos = value; }
-
-
-
-    public abstract double CalcularSalario();
-
-    
-    public void ExibirInformacoes()
-    {
-        Console.WriteLine($"Nome: {nome}, Matrícula: {matriculaFuncionario}, Salário: {CalcularSalario}");
-        Console.WriteLine("Projetos: " + string.Join(", ", Projetos));
-    }
-
-}

@@ -1,24 +1,25 @@
-public class FuncionarioTempoIntegral : Funcionario , IBonus
-{
-    private double salarioMensal;
-    public int bonusTempoIntegral;
-    public FuncionarioTempoIntegral(string nome, int matriculaFuncionario, double salarioMensal) : base(nome, matriculaFuncionario)
+public class FuncionarioTempoIntegral : Funcionario, IBonus
     {
-        this.nome = nome;
-        this.matriculaFuncionario = matriculaFuncionario;
-        this.salarioMensal = salarioMensal;
+        private double SalarioMensal;
+
+        public FuncionarioTempoIntegral(string nome, int matricula, double salarioMensal) : base(nome, matricula)
+        {
+            SalarioMensal = salarioMensal;
+        }
+
+        public override double CalcularSalario()
+        {
+            return SalarioMensal;
+        }
+
+        public double CalcularBonus()
+        {
+            return SalarioMensal * 0.10;
+        }
+
+        public override void ExibirInformacoes()
+        {
+            Console.WriteLine($"Nome: {Nome}, Matrícula: {Matricula}, Salário Mensal: {SalarioMensal:C}, Bônus: {CalcularBonus():C}");
+            Console.WriteLine("Projetos: " + string.Join(", ", Projetos));
+        }
     }
-    public override double CalcularSalario()
-    {
-        return salarioMensal;
-    }
-    public new void ExibirInformacoes()
-    {
-        Console.WriteLine($"Nome: {nome}, Matrícula: {matriculaFuncionario}, Salário: {CalcularSalario}");
-        Console.WriteLine("Projetos: " + string.Join(", ", Projetos));
-    }
-    public double CalcularBonus()
-    {
-       return bonusTempoIntegral = (int)(salarioMensal *= 0.10);
-    }
-}

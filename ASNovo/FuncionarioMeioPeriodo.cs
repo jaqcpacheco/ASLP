@@ -1,26 +1,27 @@
 public class FuncionarioMeioPeriodo : Funcionario, IBonus
-{
-    private int salarioPorhora;
-    private int numeroHorasTrabalhadas;
-    public int salarioMeioPeriodo;
-    public int bonusMeioPeriodo;
-    private double salarioMeioPeriodo1;
-
-    public FuncionarioMeioPeriodo (string nome, int matriculaFuncionario, int numeroHorasTrabalhadas, int salarioPorhora)  : base(nome, matriculaFuncionario)
     {
-    
-        this.nome = nome;
-        this.matriculaFuncionario = matriculaFuncionario;
-        this.numeroHorasTrabalhadas = numeroHorasTrabalhadas; 
-        this.salarioPorhora = salarioPorhora;
-    }
+        private double SalarioPorHora;
+        private int HorasTrabalhadas;
 
-    public override double CalcularSalario()
-    {
-        return salarioMeioPeriodo = numeroHorasTrabalhadas * salarioPorhora;
-    }
+        public FuncionarioMeioPeriodo(string nome, int matricula, double salarioPorHora, int horasTrabalhadas) : base(nome, matricula)
+        {
+            SalarioPorHora = salarioPorHora;
+            HorasTrabalhadas = horasTrabalhadas;
+        }
+
+        public override double CalcularSalario()
+        {
+            return SalarioPorHora * HorasTrabalhadas;
+        }
+
         public double CalcularBonus()
-    {
-            return bonusMeioPeriodo = (int)(salarioMeioPeriodo * 0.5);
+        {
+            return CalcularSalario() * 0.05;
+        }
+
+        public override void ExibirInformacoes()
+        {
+            Console.WriteLine($"Nome: {Nome}, Matrícula: {Matricula}, Salário por Hora: {SalarioPorHora:C}, Horas Trabalhadas: {HorasTrabalhadas}, Salário Total: {CalcularSalario():C}, Bônus: {CalcularBonus():C}");
+            Console.WriteLine("Projetos: " + string.Join(", ", Projetos));
+        }
     }
-}
