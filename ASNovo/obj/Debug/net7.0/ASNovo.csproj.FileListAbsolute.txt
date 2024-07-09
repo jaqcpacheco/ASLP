@@ -1,0 +1,29 @@
+D:\ULBRA 2024-01\proj ajuda\ASNovo\bin\Debug\net7.0\ASNovo.exe
+D:\ULBRA 2024-01\proj ajuda\ASNovo\bin\Debug\net7.0\ASNovo.deps.json
+D:\ULBRA 2024-01\proj ajuda\ASNovo\bin\Debug\net7.0\ASNovo.runtimeconfig.json
+D:\ULBRA 2024-01\proj ajuda\ASNovo\bin\Debug\net7.0\ASNovo.dll
+D:\ULBRA 2024-01\proj ajuda\ASNovo\bin\Debug\net7.0\ASNovo.pdb
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\ASNovo.csproj.AssemblyReference.cache
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\ASNovo.GeneratedMSBuildEditorConfig.editorconfig
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\ASNovo.AssemblyInfoInputs.cache
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\ASNovo.AssemblyInfo.cs
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\ASNovo.csproj.CoreCompileInputs.cache
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\ASNovo.dll
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\refint\ASNovo.dll
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\ASNovo.pdb
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\ASNovo.genruntimeconfig.cache
+D:\ULBRA 2024-01\proj ajuda\ASNovo\obj\Debug\net7.0\ref\ASNovo.dll
+C:\Users\jaque\ASNovo\bin\Debug\net7.0\ASNovo.exe
+C:\Users\jaque\ASNovo\bin\Debug\net7.0\ASNovo.deps.json
+C:\Users\jaque\ASNovo\bin\Debug\net7.0\ASNovo.runtimeconfig.json
+C:\Users\jaque\ASNovo\bin\Debug\net7.0\ASNovo.dll
+C:\Users\jaque\ASNovo\bin\Debug\net7.0\ASNovo.pdb
+C:\Users\jaque\ASNovo\obj\Debug\net7.0\ASNovo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaque\ASNovo\obj\Debug\net7.0\ASNovo.AssemblyInfoInputs.cache
+C:\Users\jaque\ASNovo\obj\Debug\net7.0\ASNovo.AssemblyInfo.cs
+C:\Users\jaque\ASNovo\obj\Debug\net7.0\ASNovo.csproj.CoreCompileInputs.cache
+C:\Users\jaque\ASNovo\obj\Debug\net7.0\ASNovo.dll
+C:\Users\jaque\ASNovo\obj\Debug\net7.0\refint\ASNovo.dll
+C:\Users\jaque\ASNovo\obj\Debug\net7.0\ASNovo.pdb
+C:\Users\jaque\ASNovo\obj\Debug\net7.0\ASNovo.genruntimeconfig.cache
+C:\Users\jaque\ASNovo\obj\Debug\net7.0\ref\ASNovo.dll

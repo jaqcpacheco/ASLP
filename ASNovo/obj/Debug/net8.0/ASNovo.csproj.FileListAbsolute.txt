@@ -1,0 +1,14 @@
+C:\Users\jaque\ASNovo\bin\Debug\net8.0\ASNovo.exe
+C:\Users\jaque\ASNovo\bin\Debug\net8.0\ASNovo.deps.json
+C:\Users\jaque\ASNovo\bin\Debug\net8.0\ASNovo.runtimeconfig.json
+C:\Users\jaque\ASNovo\bin\Debug\net8.0\ASNovo.dll
+C:\Users\jaque\ASNovo\bin\Debug\net8.0\ASNovo.pdb
+C:\Users\jaque\ASNovo\obj\Debug\net8.0\ASNovo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaque\ASNovo\obj\Debug\net8.0\ASNovo.AssemblyInfoInputs.cache
+C:\Users\jaque\ASNovo\obj\Debug\net8.0\ASNovo.AssemblyInfo.cs
+C:\Users\jaque\ASNovo\obj\Debug\net8.0\ASNovo.csproj.CoreCompileInputs.cache
+C:\Users\jaque\ASNovo\obj\Debug\net8.0\ASNovo.dll
+C:\Users\jaque\ASNovo\obj\Debug\net8.0\refint\ASNovo.dll
+C:\Users\jaque\ASNovo\obj\Debug\net8.0\ASNovo.pdb
+C:\Users\jaque\ASNovo\obj\Debug\net8.0\ASNovo.genruntimeconfig.cache
+C:\Users\jaque\ASNovo\obj\Debug\net8.0\ref\ASNovo.dll
